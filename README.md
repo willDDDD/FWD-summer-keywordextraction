@@ -45,6 +45,7 @@ Math+Math
 Phy+Math
 CS+Math
 Phy+CS
-see section2.py
+see section2_result folder
 
 ## Section 3: Visualize result in Section 2
+see section3_result folder
