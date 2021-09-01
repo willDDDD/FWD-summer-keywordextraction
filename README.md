@@ -3,6 +3,7 @@
 
 ## Step 1: Extract different topic corpus from arXiv dataset. (cs/math/phy corpus)
 download arXiv dataset from https://www.kaggle.com/Cornell-University/arxiv
+
 In Step1_input_corpus.py, extract target domain abstract corpus.
 ## Step 2: Using the corpus from Step1 as the input for Autophrases, and get the result, which includes a list of important terms and their important scores.
 ## Step 3: Using the list of important terms from Step2 as the input query for Domain-relevance measurement, choosing the certain domain to measure(cs/math/phy) and get the relevance score for each important term.
