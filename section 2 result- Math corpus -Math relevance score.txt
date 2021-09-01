@@ -1,0 +1,40 @@
+## math result with math-corpus input
+# important_score
+# top1000precision = 237/ 1000   avg_important_score = 0.9718566462607588
+# top5000 precision = 1151/5000         avg_important_score = 0.9618051590561258
+
+# important_score * (15/16) + relevance_score * (1/16)
+# top1000precision = 747/ 1000   avg_important_score = 0.9560667591488625
+# top5000 precision = 2148/5000         avg_important_score =  0.9455139485715549
+
+# important_score * (7/8) + relevance_score * (1/8)
+# top1000precision = 744/ 1000   avg_important_score = 0.9510192824486551
+# top5000 precision = 2939/5000         avg_important_score =  0.9222056587293637
+
+# important_score * (3/4) + relevance_score * (1/4)
+# top1000precision = 741/ 1000   avg_important_score =0.9435503495654515
+# top5000 precision = 3117/5000         avg_important_score =  0.9026464688650624
+
+# important_score * (1/2) + relevance_score * (1/2)
+# top1000precision = 732/ 1000   avg_important_score = 0.9240240527316935
+#top5000 precision = 3171/5000         avg_important_score =  0.8687050166754026
+
+# important_score * (1/3) + relevance_score * (2/3)
+# top1000precision = 738/ 1000   avg_important_score =0.9069591162651751
+#top5000 precision = 3111/5000         avg_important_score =  0.8358914733497909
+
+# important_score * (1/4) + relevance_score * (3/4)
+# top1000precision = 720/ 1000   avg_important_score = 0.8944873390158318
+#top5000 precision = 3059/5000         avg_important_score =  0.809836889553026
+
+# important_score * (1/8) + relevance_score * (7/8)
+# top1000precision = 693/ 1000   avg_important_score = 0.8584471553512254
+#top5000 precision = 2930/5000         avg_important_score =  0.728796138336655
+
+# important_score * (1/16) + relevance_score * (15/16)
+# top1000precision = 664/ 1000   avg_important_score = 0.8225247176658123
+#top5000 precision = 2877/5000         avg_important_score =  0.6026310218694113
+
+# relevance_score
+# top1000precision = 654/ 1000   avg_important_score = 0.43080065606345624
+#top5000 precision = 2602/5000         avg_important_score = 0.4562016428573041

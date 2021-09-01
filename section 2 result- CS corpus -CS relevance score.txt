@@ -1,0 +1,94 @@
+#important_score 
+#top1000precision = 854/1000    avg_important_score =  0.9657478583386422
+# 1000-2000 precision = 812 / 1000      avg_important_score =  0.9526474753901466
+# 2000-3000 precision = 775 / 1000      
+#5000-6000 precision = 664/1000         avg_important_score = 0.919676690331326
+#10000-11000 precision = 566/1000
+#30000-31000 precision 570 /1000         avg_important_score =  0.7916806730410522
+#100000-101000 precision = 368/1000
+#top5000 precision = 3857/5000             avg_important_score =  0.9457292788885392
+#top10000precision = 6952 / 10000         avg_important_score =  0.9283141781654465
+#top100000precision = (29320)/100000
+
+# important_score * (15/16) + relevance_score * (1/16)
+# top1000precision = 939/ 1000   avg_important_score = 0.955359375505538
+#top5000 precision = 4148/5000         avg_important_score =  0.9391779424574983
+
+# important_score * (29/32) + relevance_score * (3/32)
+# top1000precision = 942/ 1000   avg_important_score = 0.9520817265296189
+#top5000 precision = 4239/5000         avg_important_score =  0.932308249440341
+
+# important_score * (57/64) + relevance_score * (7/64)
+# top1000precision = 947/ 1000   avg_important_score = 0.950383177186273
+#top5000 precision = 4259/5000         avg_important_score =  0.9276485856317225
+
+# important_score * (115/128) + relevance_score * (13/128)
+# top1000precision = 945/ 1000   avg_important_score = 0.9511816410502656
+
+# important_score * (7/8) + relevance_score * (1/8)
+# top1000precision = 946/ 1000   avg_important_score = 0.9487798377832986
+# 1000-2000 precision = 882/ 1000   avg_important_score =0.928784702999092
+# 2000-3000 precision = 836 / 1000  avg_important_score =  0.9161155317592112
+#5000-6000 precision = 779/1000    avg_important_score =   0.9059422106329912
+#10000-11000 precision = 631/1000    avg_important_score =  0.8760853387621239
+#30000-31000 precision 600/1000      avg_important_score =  0.7882801645233326
+#100000-101000 precision = 394/1000     avg_important_score =  0.5660078009748735
+#top5000 precision = 4260/5000         avg_important_score =  0.9230295170544387
+#top10000precision = 8002/ 10000      avg_important_score =  0.869818906661633
+
+# important_score * (13/16) + relevance_score * (3/16)
+# top1000precision = 943/ 1000   avg_important_score = 0.9433219639737007
+
+# important_score * (3/4) + relevance_score * (1/4)
+# top1000precision = 938/ 1000   avg_important_score = 0.9383670162380594
+# 1000-2000 precision = 872/ 1000   avg_important_score = 0.9112484290532115
+# 2000-3000 precision = 822 / 1000  avg_important_score =  0.8935368378167869
+#5000-6000 precision = 774/1000    avg_important_score =   0.8573439794913428
+#10000-11000 precision = 724/1000    avg_important_score =  0.8239790765030387
+#30000-31000 precision 536 /1000      avg_important_score =  0.7653937333326503
+#100000-101000 precision = 365/1000     avg_important_score =  0.5750794316621926
+#top5000 precision = 4240/5000         avg_important_score =  0.8977097209824743
+#top10000precision = 7847/ 10000      avg_important_score =  0.9112622892847819
+
+
+# important_score * (2/3) + relevance_score * (1/3)
+# top1000precision = 931/ 1000   avg_important_score = 0.9313172715265307
+# 1000-2000 precision = 870/ 1000   avg_important_score = 0.9009604368334478
+# 2000-3000 precision = 832 / 1000  avg_important_score =  0.8756641376543268
+#5000-6000 precision = 766/1000    avg_important_score =   0.8290296221236286
+#10000-11000 precision = 710/1000    avg_important_score =  0.7868381585119718
+#30000-31000 precision 540 /1000      avg_important_score =  0.7571583932207396
+#100000-101000 precision = 394/1000     avg_important_score =  0.5636708377928936
+#top5000 precision = 4216/5000         avg_important_score =  0.8843635062623337
+#top10000precision = 7903/ 10000      avg_important_score =  0.8501538398243442
+#top100000precision = (30564)/100000     avg_important_score =  0.7549340675619982
+
+
+#(important_score + relevance_score) / 2  
+# top1000precision = 923 / 1000
+# 1000-2000 precision = 848 / 1000
+# 2000-3000 precision = 833 / 1000
+#5000-6000 precision = 735/1000
+#10000-11000 precision = 693/1000
+#30000-31000 precision 623 /1000
+#100000-101000 precision = 370/1000
+#top5000 precision = 4139/5000
+#top10000precision = 7727 / 10000
+#top100000precision = (29753)/100000
+#top300000+ precision = (38259) / 334810
+
+# important_score * (1/3) + relevance_score * (2/3)
+# top1000precision = 903/ 1000   avg_important_score = 0.8874310404753036
+
+
+#relevance_score
+# top1000precision = 800/ 1000
+# 1000-2000 precision = 724 / 1000
+# 2000-3000 precision = 678 / 1000
+#5000-6000 precision = 632/1000
+#10000-11000 precision = 617/1000
+#30000-31000 precision 556 /1000
+#100000-101000 precision = 396/1000
+#top5000 precision = 3488/5000
+#top10000precision = 6759/ 10000
+#top100000precision = (24622)/100000
