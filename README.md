@@ -35,4 +35,4 @@ in Step4_joinTwoScore.py, combine important score with relevance score, storing 
 
 in Step4_rankByMixingScore.py, mixing two scores according to different parameters and rank terms based on this new score, storing result in test.txt
 ## Step 5: Extract terms in different levels (top1000/top5000/1000-2000/…) from the result of step4 and calculate the precision rate based on the keyword list in specific fields (CS/MATH).
-
+in Step5_calculatePrecision.py, calculating precision rate for different rank
