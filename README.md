@@ -25,11 +25,13 @@ download domain relevance measure method from https://github.com/jeffhj/domain-r
 
 copy the content from keyphrasesFromAutophrases.txt, open domain-relevance/query.py, near line 128, paste the content from keyphrasesFromAutophrases.txt into query_terms.
 
-run (python3 query.py --domain cs --method cfl) in the terminal, (here, cs the target domain to measure relevance, you can change to other target domain such as math and phy)
+run (python3 query.py --domain cs --method cfl) in the terminal to get the result (here, cs the target domain to measure relevance, you can change to other target domain such as math and phy)
 
+To notice: the output of domain relevance will not be automatically saved to file. You can run (script -f output.txt) before running the previous order to record the output into output.txt. After running, press Ctrl+D to end the recording.
 
-
-
+delete extra information in output.txt, only keep keywords and corresponding relevance scores
 ## Step 4: Mix important scores and relevance scores with different coefficients, and then reorder all the terms based on the new mixing score.
+
+
 ## Step 5: Extract terms in different levels (top1000/top5000/1000-2000/…) from the result of step4 and calculate the precision rate based on the keyword list in specific fields (CS/MATH).
 
