@@ -52,3 +52,4 @@ see section3_result folder
 
 ## Section 4: Relationship between important score and relevance score
 see section4 folder
+for section4, all files are in html format. Download and open it.
