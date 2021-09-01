@@ -1,0 +1,28 @@
+## cs result with phy-corpus input
+# important_score
+# top1000precision =452/ 1000   avg_important_score = 0.9321416834245579
+#top5000 precision = 1701/5000         avg_important_score = 0.8939720353674296
+
+# important_score * (7/8) + relevance_score * (1/8)
+# top1000precision = 670/ 1000   avg_important_score = 0.9062703396834322
+#top5000 precision = 2003/5000         avg_important_score =  0.8761785655577611
+
+# important_score * (3/4) + relevance_score * (1/4)
+# top1000precision = 676/ 1000   avg_important_score =0.8904733896992609
+
+# important_score * (1/2) + relevance_score * (1/2)
+# top1000precision = 696/ 1000   avg_important_score = 0.8507853683639357
+
+# important_score * (1/3) + relevance_score * (2/3)
+# top1000precision = 705/ 1000   avg_important_score = 0.8099622384653901
+#top5000 precision = 2922/5000         avg_important_score =  0.6761289358179339
+
+# important_score * (1/8) + relevance_score * (7/8)
+# top1000precision = 705/ 1000   avg_important_score = 0.7453268236707803
+#top5000 precision = 2766/5000         avg_important_score =  0.5949134709816708
+
+# important_score * (1/16) + relevance_score * (15/16)
+# top1000precision = 680/ 1000   avg_important_score = 0.6596308939945589
+
+# relevance_score
+# top1000precision = 655/ 1000   avg_important_score = 0.5784177898819849

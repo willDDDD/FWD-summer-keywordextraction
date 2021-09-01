@@ -1,0 +1,44 @@
+## math result with phy-corpus input
+# important_score
+# top1000precision = 463/ 1000   avg_important_score = 0.933233257634557
+#top5000 precision = 1622/5000         avg_important_score =  0.8958699750960535
+
+# important_score * (15/16) + relevance_score * (1/16)
+# top1000precision = 650/ 1000   avg_important_score = 0.9198673079110773
+#top5000 precision = 1795/5000         avg_important_score =  0.887893880152813
+
+# important_score * (7/8) + relevance_score * (1/8)
+# top1000precision = 702/ 1000   avg_important_score = 0.9064552978649564
+#top5000 precision = 1968/5000         avg_important_score =  0.8755494831001519
+
+# important_score * (3/4) + relevance_score * (1/4)
+# top1000precision = 731/ 1000   avg_important_score =0.8897855067214779
+#top5000 precision = 2603/5000         avg_important_score =  0.81568053110726
+
+# important_score * (1/2) + relevance_score * (1/2)
+# top1000precision = 746/ 1000   avg_important_score = 0.8506713107001335
+#top5000 precision = 3054/5000         avg_important_score =  0.7331581518673861
+
+# important_score * (1/3) + relevance_score * (2/3)
+# top1000precision = 754/ 1000   avg_important_score = 0.8099850672472143
+#top5000 precision = 3048/5000         avg_important_score =  0.6758958972281165
+
+# important_score * (1/4) + relevance_score * (3/4)
+# top1000precision = 759/ 1000   avg_important_score = 0.8099850672472143
+#top5000 precision = 2993/5000         avg_important_score =  0.6412928803778146
+
+# important_score * (1/6) + relevance_score * (5/6)
+# top1000precision = 758/ 1000   avg_important_score = 0.7595644917854872
+#top5000 precision = 2927/5000         avg_important_score =  0.6167409037556887
+
+# important_score * (1/8) + relevance_score * (7/8)
+# top1000precision = 760/ 1000   avg_important_score = 0.7443470159998682
+#top5000 precision = 2893/5000         avg_important_score =  0.6041975157883515
+
+# important_score * (1/16) + relevance_score * (15/16)
+# top1000precision = 729/ 1000   avg_important_score = 0.660165391697805
+#top5000 precision = 2864/5000         avg_important_score =  0.5883855325890709
+
+# relevance_score
+# top1000precision = 677/ 1000   avg_important_score = 0.4941462896029702
+#top5000 precision = 2805/5000         avg_important_score =  0.5742911327365421
