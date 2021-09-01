@@ -12,7 +12,7 @@ add step1_result.txt under AutoPhrase/data/EN/ as the input for Autophrases.
 
 open the file AutoPhrase/auto_phrase.sh, near line 24, change DEFAULT_TRAIN=${DATA_DIR}/EN/DBLP.txt to DEFAULT_TRAIN=${DATA_DIR}/EN/step1_result.txt (name of txt is based on how you name the step1 result)
 
-run ./auto_phrase.sh in the terminal under Autophrase to get important terms with important score
+run (./auto_phrase.sh) in the terminal under Autophrase to get important terms with important score
 
 after running, open AutoPhrase/models/DBLP/AutoPhrase.txt to download the result
 
@@ -25,7 +25,7 @@ download domain relevance measure method from https://github.com/jeffhj/domain-r
 
 copy the content from keyphrasesFromAutophrases.txt, open domain-relevance/query.py, near line 128, paste the content from keyphrasesFromAutophrases.txt into query_terms.
 
-run python3 query.py --domain cs --method cfl in the terminal, (here, cs the target domain to measure relevance, you can change to other target domain such as math and phy)
+run (python3 query.py --domain cs --method cfl) in the terminal, (here, cs the target domain to measure relevance, you can change to other target domain such as math and phy)
 
 
 
