@@ -49,3 +49,6 @@ see section2_result folder
 
 ## Section 3: Visualize result in Section 2
 see section3_result folder
+
+## Section 4: Relationship between important score and relevance score
+see section4 folder
