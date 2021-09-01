@@ -17,6 +17,9 @@ run ./auto_phrase.sh in the terminal to get important terms with important score
 after running, go to AutoPhrase/models/DBLP/AutoPhrase.txt to download the result
 
 ## Step 3: Using the list of important terms from Step2 as the input query for Domain-relevance measurement, choosing the certain domain to measure(cs/math/phy) and get the relevance score for each important term.
+run Step3_cleanUpStep2Result.py to clean up the result from step2, excluding the terms including symbols. Store result in cleanUpStep2.txt.
+
+
 ## Step 4: Mix important scores and relevance scores with different coefficients, and then reorder all the terms based on the new mixing score.
 ## Step 5: Extract terms in different levels (top1000/top5000/1000-2000/…) from the result of step4 and calculate the precision rate based on the keyword list in specific fields (CS/MATH).
 
