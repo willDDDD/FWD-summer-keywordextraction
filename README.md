@@ -40,11 +40,17 @@ in Step5_calculatePrecision.py, calculating precision rate for different rank
 
 ## Section 2: result for different situation
 different input corpus + different domain for relevance score
+
 CS+CS
+
 Math+Math
+
 Phy+Math
+
 CS+Math
+
 Phy+CS
+
 see section2_result folder
 
 ## Section 3: Visualize result in Section 2
@@ -52,4 +58,5 @@ see section3_result folder
 
 ## Section 4: Relationship between important score and relevance score
 see section4 folder
+
 for section4, all files are in html format. Download and open it.
