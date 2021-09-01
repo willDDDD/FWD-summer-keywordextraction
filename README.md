@@ -4,20 +4,30 @@
 ## Step 1: Extract different topic corpus from arXiv dataset. (cs/math/phy corpus)
 download arXiv dataset from https://www.kaggle.com/Cornell-University/arxiv
 
-run Step1_input_corpus.py, extract target domain abstract corpus and store result in step1_result.txt
+in Step1_input_corpus.py, extract target domain abstract corpus and store result in step1_result.txt
 ## Step 2: Using the corpus from Step1 as the input for Autophrases, and get the result, which includes a list of important terms and their important scores.
 download Autophrases method from https://github.com/shangjingbo1226/AutoPhrase
 
-add step1_result.txt to AutoPhrase/data/EN/
+add step1_result.txt under AutoPhrase/data/EN/ as the input for Autophrases.
 
-in the file AutoPhrase/auto_phrase.sh, near line 24, change DEFAULT_TRAIN=${DATA_DIR}/EN/DBLP.txt to DEFAULT_TRAIN=${DATA_DIR}/EN/step1_result.txt (name of txt is based on how you name the step1 result)
+open the file AutoPhrase/auto_phrase.sh, near line 24, change DEFAULT_TRAIN=${DATA_DIR}/EN/DBLP.txt to DEFAULT_TRAIN=${DATA_DIR}/EN/step1_result.txt (name of txt is based on how you name the step1 result)
 
-run ./auto_phrase.sh in the terminal to get important terms with important score
+run ./auto_phrase.sh in the terminal under Autophrase to get important terms with important score
 
-after running, go to AutoPhrase/models/DBLP/AutoPhrase.txt to download the result
+after running, open AutoPhrase/models/DBLP/AutoPhrase.txt to download the result
 
 ## Step 3: Using the list of important terms from Step2 as the input query for Domain-relevance measurement, choosing the certain domain to measure(cs/math/phy) and get the relevance score for each important term.
-run Step3_cleanUpStep2Result.py to clean up the result from step2, excluding the terms including symbols. Store result in cleanUpStep2.txt.
+in Step3_cleanUpStep2Result.py to clean up the result from step2, excluding the terms including symbols. Store result in cleanUpStep2.txt.
+
+in Step3_extractKeyphrases_from_cleanUpStep2Result.py, extract keyphrases from cleanUpStep2.txt, and store result in keyphrasesFromAutophrases.txt. (as the input for domain relevance measure)
+
+download domain relevance measure method from https://github.com/jeffhj/domain-relevance, and follow the instructions in domain-relevance/README.md to download additional resource
+
+copy the content from keyphrasesFromAutophrases.txt, open domain-relevance/query.py, near line 128, paste the content from keyphrasesFromAutophrases.txt into query_terms.
+
+run python3 query.py --domain cs --method cfl in the terminal, (here, cs the target domain to measure relevance, you can change to other target domain such as math and phy)
+
+
 
 
 ## Step 4: Mix important scores and relevance scores with different coefficients, and then reorder all the terms based on the new mixing score.
