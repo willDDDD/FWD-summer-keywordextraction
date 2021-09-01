@@ -40,3 +40,11 @@ in Step5_calculatePrecision.py, calculating precision rate for different rank
 
 ## Section 2: result for different situation
 different input corpus + different domain for relevance score
+CS+CS
+Math+Math
+Phy+Math
+CS+Math
+Phy+CS
+see section2.py
+
+## Section 3: Visualize result in Section 2
