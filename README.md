@@ -14,7 +14,7 @@ In AutoPhrase/auto_phrase.sh, near line 24, change DEFAULT_TRAIN=${DATA_DIR}/EN/
 
 Run ./auto_phrase.sh in the terminal to get important terms with important score
 
-
+After running, go to AutoPhrase-master/models/DBLP/AutoPhrase.txt to download the result
 
 
 ## Step 3: Using the list of important terms from Step2 as the input query for Domain-relevance measurement, choosing the certain domain to measure(cs/math/phy) and get the relevance score for each important term.
